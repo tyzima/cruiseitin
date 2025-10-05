@@ -28,10 +28,11 @@ A professional cruise itinerary viewer with interactive maps, weather forecasts,
    npm install
    ```
 
-2. Set up environment variables:
+2. Set up environment variables (optional):
    - Set the `GEMINI_API_KEY` in `.env.local` to your Gemini API key
    - Set the `VITE_GOOGLE_WEATHER_API_KEY` in `.env.local` to your Google Weather API key
      (Get your API key from: https://developers.google.com/maps/documentation/weather)
+     Note: Without this key, weather data will not be displayed but the app will still function
 
 3. Run the app:
    ```bash

@@ -28,7 +28,7 @@ export class WeatherService {
     }
 
     if (!GOOGLE_WEATHER_API_KEY) {
-      console.error('Google Weather API key not found. Please set VITE_GOOGLE_WEATHER_API_KEY environment variable.');
+      console.warn('Google Weather API key not configured. Weather data will not be available.');
       return null;
     }
 
