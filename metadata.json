@@ -1,0 +1,5 @@
+{
+  "name": "Cruise Itinerary Viewer",
+  "description": "A mobile-first web application to beautifully display a cruise travel itinerary. Users can view daily schedules, including dining options and attractions at each port of call.",
+  "requestFramePermissions": []
+}
